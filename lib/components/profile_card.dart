@@ -4,7 +4,11 @@ import 'package:flutter_kakao/screens/profile_screen.dart';
 import '../models/user.dart';
 
 class ProfileCard extends StatelessWidget {
-  const ProfileCard({Key? key, required this.user}) : super(key: key);
+  const ProfileCard({
+    Key? key,
+    required this.user,
+  }) : super(key: key);
+
   final User user;
 
   @override
